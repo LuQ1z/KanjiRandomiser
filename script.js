@@ -4,7 +4,7 @@ const kanjiArray = [
   'kanji/hi.png',
   'kanji/ki.png',
   'kanji/tsuki.png',
-  'kanji/Yama.png',
+  'kanji/yama.png',
   'kanji/kawa.png',
   'kanji/ta.png',
   'kanji/hito.png',
