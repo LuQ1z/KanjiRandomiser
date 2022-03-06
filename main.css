@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+html {
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #b42869, #586dc7);
+  background-size: 250% 250%;
+  animation: gradient 60s infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.title {
+  position: absolute;
+  top: 6%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 6rem;
+  letter-spacing: 20px;
+}
+
+.test {
+  position: relative;
+  height: 100vh;
+}
+
+.kanji {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#kanji_picture {
+  padding: 20px;
+  height: 350px;
+  width: 350px;
+  background: white;
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 20px;
+  border-radius: 8px;
+}
+
+#input {
+  position: absolute;
+  bottom: -22%;
+  left: -5%;
+  width: 260px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 8px;
+  border-style: none;
+}
+
+#input:focus {
+  outline: none !important;
+}
+
+.btn {
+  position: absolute;
+  right: -5%;
+  bottom: -22%;
+  height: 50px;
+  width: 110px;
+  background: linear-gradient(to bottom left, #b4286980, #576bc780);
+  color: white;
+  border-radius: 8px;
+  border: 2px solid white;
+  cursor: pointer;
+  /* box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 10px; */
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+}
