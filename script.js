@@ -11,6 +11,16 @@ const kanjiArray = [
   'kanji/kuchi.png',
   'kanji/kuruma.svg',
   'kanji/mon.png',
+  'kanji/ka.png',
+  'kanji/mizu.png',
+  'kanji/kane.png',
+  'kanji/tsuchi.png',
+  'kanji/ko.png',
+  'kanji/onna.png',
+  'kanji/gaku.png',
+  'kanji/ikiru.png',
+  'kanji/saki.png',
+  'kanji/watashi.png',
 ];
 let kanjiString = kanjiArray.join();
 const kanjiPicture = document.getElementById('kanji_picture');
