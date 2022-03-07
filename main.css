@@ -16,7 +16,7 @@ body {
   align-items: center;
   background: linear-gradient(to bottom right, #b42869, #586dc7);
   background-size: 250% 250%;
-  animation: gradient 60s infinite;
+  animation: gradient 45s infinite;
   height: 100vh;
 }
 
